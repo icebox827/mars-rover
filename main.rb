@@ -68,10 +68,10 @@ class Rover
   end
 
   # Initialize each rover position and heading
-  # first_rover = Rover.new(1,2,'N')
+  first_rover = Rover.new(1,2,'N')
   second_rover = Rover.new(3,3,'E')
 
   # Instruction for each rover th explore the plateau
-  # first_rover.instruction(['L','M','L','M','L','M','L','M','M'])
+  first_rover.instruction(['L','M','L','M','L','M','L','M','M'])
   second_rover.instruction(['M','M','R','M','M','R','M','R','R','M'])
 end
